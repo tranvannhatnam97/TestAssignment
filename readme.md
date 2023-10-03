@@ -1,3 +1,8 @@
+# Part 1 - Test Design
+
+Test case stored in folder Part1_TestDesign
+The test design method was noted by tag in feature file
+
 # Part 2 - UI Automation Test
 
 ## Install
