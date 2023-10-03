@@ -1,0 +1,10 @@
+{
+  "default": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "dryRun": false,
+    "requireModule": ["ts-node/register"],
+    "format": ["progress", "rerun:@rerun.txt"]
+  }
+}

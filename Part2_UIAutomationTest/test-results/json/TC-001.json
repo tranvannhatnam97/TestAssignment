@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-successfully",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Login successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User go to homepage",
+            "match": {
+              "location": "src\\test\\steps\\TheInternet\\homeSteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2851644000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User click Basic Auth",
+            "match": {
+              "location": "src\\test\\steps\\TheInternet\\homeSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1135857200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User navigate to Login Page",
+            "match": {
+              "location": "src\\test\\steps\\TheInternet\\loginSteps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2147267700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "src\\test\\features\\TheInternet\\login.feature"
+  }
+]
