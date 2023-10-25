@@ -59,7 +59,7 @@ cd Part2_ApiAutomation
 npm i
 ```
 
-## Install sample api server
+## Run sample api server
 
 Run json-server using db.json as database:
 
