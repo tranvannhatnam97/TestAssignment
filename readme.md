@@ -1,6 +1,6 @@
 Thư mục Part1 - Exercise I
 
-Thư mục Part 2 - Exercise 2 (vì API chatbot lỗi nên em tạm thay thế bằng api của json-server, nếu cần chị có thể tự sửa lại api em đã viết sẵn trong file src/chat.ts, hoặc chị có thể báo em và em sẽ cập nhật, còn assigment 2 em chưa rõ yêu cầu là gì nên chưa làm)
+Thư mục Part 2 - Exercise 2 (vì API chatbot lỗi nên em tạm thay thế bằng api của json-server, nếu cần anh/chị có thể tự sửa lại api em đã viết sẵn trong file src/chat.ts, hoặc anh/chị có thể báo em và em sẽ cập nhật, còn assigment 2 em chưa rõ yêu cầu là gì nên chưa làm)
 
 Làm theo hướng dẫn để cài đặt và chạy test
 
