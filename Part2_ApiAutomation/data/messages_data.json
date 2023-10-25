@@ -1,0 +1,18 @@
+[
+  {
+    "tc": "001",
+    "message": "Tôi muốn đặt phòng ở khách sạn Vinpearl"
+  },
+  {
+    "tc": "002",
+    "message": "Quy đổi voucher thành tiền mặt được không?"
+  },
+  {
+    "tc": "003",
+    "message": "Đặt phòng qua bên thứ 3 có được giữ phòng không?"
+  },
+  {
+    "tc": "004",
+    "message": "Đặt phòng qua bên thứ 3 thì có vé vui chơi giải trí không?"
+  }
+]

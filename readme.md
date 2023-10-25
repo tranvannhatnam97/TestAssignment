@@ -1,23 +1,16 @@
-# Part 1 - Test Design
+Thư mục Part1 - Exercise I
+Thư mục Part 2 - Exercise 2 (vì API vinpearl lỗi nên tạm thay thế bằng api của json-server)
 
-Test case stored in folder Part1_TestDesign.
+Làm theo hướng dẫn để cài đặt và chạy test
 
-The test design method was noted by tag in feature file
-
-# Part 2 - UI Automation Test
+# Part 1 - UI Automation Test
 
 ## Install
 
 First, access folder of Part 2 in terminal (to install and run automation testscript)
 
 ```bash
-cd Part2_UIAutomationTest
-```
-
-### Install sample UI server
-
-```bash
-docker run --rm -d -p 8080:5000 gprestes/the-internet
+cd Part1_UIAutomationTest
 ```
 
 ### Install Nodejs
@@ -30,10 +23,8 @@ Follow instruction in https://docs.npmjs.com/downloading-and-installing-node-js-
 npm install
 ```
 
-If Playwright does not load from npm, run this command
-
 ```bash
-npx install playwright
+npx install -g playwright
 ```
 
 ## Run testscript
@@ -51,44 +42,40 @@ The project use Page Model Object, with:
 
 Report files stored in test-result folder
 
-# Part 3 - Api Automation Test
+# Part 2 - Api Automation Test
 
 ## Install
 
 First, access folder of Part 3 in terminal (to install and run automation testscript)
 
 ```bash
-cd Part3_ApiAutomation
+cd Part2_ApiAutomation
 ```
 
-### Install sample api server
+### Install module for json-server and api test module
 
-Create file db.json
+```bash
+npm i
+```
+
+## Install sample api server
 
 Run json-server using db.json as database:
 
 ```bash
-docker run -p 80:80 -v ./db.json:/data/db.json clue/json-server
-```
-
-(If you run on window, should use full path of json file, Eg:C:\Users\ASUS\Documents\TestAsssignment\Part3_ApiAutomation\db.json)
-
-### Install module for automation framework
-
-```bash
-npm install
+json-server --watch .\db.json
 ```
 
 ## Run testscript
 
 ```bash
-npm test
+npx ts-node .\test\fullTest.ts
 ```
 
-The project uses framework Jest for unit-test, and axios to send request. It has 3 main package:
+The project has 4 folder:
 
-- "data" contains data for data driven testing
-- "src" contains request program
-- "test" contains testscript
-
-The results will be shown in terminal console (or logger). Jest has some tools for reporting (as html, json), however I did't have enough time to research on it. The configuration is quite complicated.
+- data: store input data (message to chatbot for each case)
+- src: store source code
+- tools: excel tools
+- results: store excel file
+  Report files stored in test-result folder
