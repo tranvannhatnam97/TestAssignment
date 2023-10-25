@@ -4,48 +4,257 @@
     "elements": [
       {
         "description": "",
-        "id": "login;login-successfully",
+        "id": "chatbot;chat-with-chatbox-successfully",
         "keyword": "Scenario",
-        "line": 2,
-        "name": "Login successfully",
+        "line": 3,
+        "name": "Chat with chatbox successfully",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 3,
+            "line": 4,
             "name": "User go to homepage",
             "match": {
-              "location": "src\\test\\steps\\TheInternet\\homeSteps.ts:4"
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:5"
             },
             "result": {
               "status": "passed",
-              "duration": 2851644000
+              "duration": 11631200
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 4,
-            "name": "User click Basic Auth",
+            "line": 5,
+            "name": "User click chatbot button",
             "match": {
-              "location": "src\\test\\steps\\TheInternet\\homeSteps.ts:9"
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1135857200
+              "duration": 7531499
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 5,
-            "name": "User navigate to Login Page",
+            "line": 6,
+            "name": "Chatbot show up",
             "match": {
-              "location": "src\\test\\steps\\TheInternet\\loginSteps.ts:4"
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 2147267700
+              "duration": 14406707800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click Start",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1549560699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Required infomation form show up",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15985799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User type infomation with name: \"namtvn\", email: \"namtvn97@gmail.com\", phone: \"0979399732\" and click Start",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3572688400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Chatbot start",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12984099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User chat \"Tôi muốn đặt phòng ở khách sạn Vinpearl\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4024598700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User message appear: \"Tôi muốn đặt phòng ở khách sạn Vinpearl\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10177500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Chatbot response message contain: \"Tìm phòng khách sạn\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12639200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User chat \"Quy đổi voucher thành tiền mặt được không?\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4044813599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User message appear: \"Quy đổi voucher thành tiền mặt được không?\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7950099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Chatbot response message contain: \"Điểm đến của Quý khách là?\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8197499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User chat \"Đặt phòng qua bên thứ 3 có được giữ phòng không?\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4241371899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "User message appear: \"Đặt phòng qua bên thứ 3 có được giữ phòng không?\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8614799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Chatbot response message contain: \"bên thứ 3\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:44"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5021062600,
+              "error_message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39mexpect(received).toContainText(expected)\n\n- Expected string  - 1\n+ Received string  + 3\n\n- bên thứ 3\n+ Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\n+               Tìm phòng khách sạn\n+               \nCall log:\n  \u001b[2m- locator._expect with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('xpath=//div[@class=\"chat-message\"][last()]/*[last()]')\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"chat-message__text chat-message__button\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Để tìm phòng Quý khách vui lòng nhấn \"Tìm phòng khách sạn\" bên dưới và cung cấp một số thông tin:\u001b[22m\n\u001b[2m              Tìm phòng khách sạn\u001b[22m\n\u001b[2m              \"\u001b[22m\n\n    at Proxy.<anonymous> (C:\\Users\\ASUS\\Documents\\TestAsssignment\\Part2_UIAutomationTest\\node_modules\\playwright\\lib\\matchers\\expect.js:166:37)\n    at World.<anonymous> (C:\\Users\\ASUS\\Documents\\TestAsssignment\\Part2_UIAutomationTest\\src\\test\\steps\\Vinpearl\\chatbot.ts:45:55)\n    at step (C:\\Users\\ASUS\\Documents\\TestAsssignment\\Part2_UIAutomationTest\\src\\test\\steps\\Vinpearl\\chatbot.ts:33:23)\n    at Object.next (C:\\Users\\ASUS\\Documents\\TestAsssignment\\Part2_UIAutomationTest\\src\\test\\steps\\Vinpearl\\chatbot.ts:14:53)\n    at C:\\Users\\ASUS\\Documents\\TestAsssignment\\Part2_UIAutomationTest\\src\\test\\steps\\Vinpearl\\chatbot.ts:8:71\n    at __awaiter (C:\\Users\\ASUS\\Documents\\TestAsssignment\\Part2_UIAutomationTest\\src\\test\\steps\\Vinpearl\\chatbot.ts:4:12)\n    at World.<anonymous> (C:\\Users\\ASUS\\Documents\\TestAsssignment\\Part2_UIAutomationTest\\src\\test\\steps\\Vinpearl\\chatbot.ts:167:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User chat \"Đặt phòng qua bên thứ 3 thì có vé vui chơi giải trí không?\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:37"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "User message appear: \"Đặt phòng qua bên thứ 3 thì có vé vui chơi giải trí không?\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Chatbot response message contain: \"giải trí\"",
+            "match": {
+              "location": "src\\test\\steps\\Vinpearl\\chatbot.ts:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -53,11 +262,11 @@
         "type": "scenario"
       }
     ],
-    "id": "login",
+    "id": "chatbot",
     "line": 1,
     "keyword": "Feature",
-    "name": "Login",
+    "name": "Chatbot",
     "tags": [],
-    "uri": "src\\test\\features\\TheInternet\\login.feature"
+    "uri": "src\\test\\features\\Vinpearl\\chat.feature"
   }
 ]

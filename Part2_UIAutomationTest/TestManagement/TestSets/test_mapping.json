@@ -1,34 +1,7 @@
 [
   {
     "tc_id": "TC-001",
-    "paths": ["src/test/features/TheInternet/login.feature"],
-    "steps": [
-      "src/test/steps/TheInternet/homeSteps.ts",
-      "src/test/steps/TheInternet/loginSteps.ts"
-    ]
-  },
-  {
-    "tc_id": "TC-002",
-    "paths": ["src/test/features/TheInternet/checkboxes.feature"],
-    "steps": [
-      "src/test/steps/TheInternet/homeSteps.ts",
-      "src/test/steps/TheInternet/checkboxesSteps.ts"
-    ]
-  },
-  {
-    "tc_id": "TC-003",
-    "paths": ["src/test/features/TheInternet/dropdown.feature"],
-    "steps": [
-      "src/test/steps/TheInternet/homeSteps.ts",
-      "src/test/steps/TheInternet/dropdownSteps.ts"
-    ]
-  },
-  {
-    "tc_id": "TC-004",
-    "paths": ["src/test/features/TheInternet/uploadFile.feature"],
-    "steps": [
-      "src/test/steps/TheInternet/homeSteps.ts",
-      "src/test/steps/TheInternet/uploadFileSteps.ts"
-    ]
+    "paths": ["src/test/features/Vinpearl/chat.feature"],
+    "steps": ["src/test/steps/Vinpearl/chatbot.ts"]
   }
 ]

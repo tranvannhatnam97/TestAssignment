@@ -7,7 +7,7 @@ let browser: Browser;
 let context: any;
 setDefaultTimeout(60 * 1000 * 2);
 BeforeAll(async function () {
-  browser = await chromium.launch({ headless: false });
+  browser = await webkit.launch({ headless: false });
   const context = await browser.newContext({
     httpCredentials: {
       username: "admin",
@@ -19,7 +19,7 @@ BeforeAll(async function () {
   pageFixture.browser = browser;
 });
 AfterAll(async function () {
-  await pageFixture.page.waitForLoadState("networkidle");
+  // await pageFixture.page.waitForLoadState("networkidle");
   await page.close();
   await browser.close();
 });

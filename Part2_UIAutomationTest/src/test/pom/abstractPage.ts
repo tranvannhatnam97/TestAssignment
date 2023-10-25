@@ -6,6 +6,7 @@ export abstract class AbstractPage {
   async access(): Promise<void> {
     await this.page.goto(this.url);
     await this.page.waitForLoadState("domcontentloaded");
+    // await this.page.waitForTimeout(7000);
     await this.checkIn();
   }
   constructor(page: Page) {

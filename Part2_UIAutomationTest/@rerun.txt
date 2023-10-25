@@ -1,0 +1,1 @@
+src\test\features\Vinpearl\chat.feature:3
